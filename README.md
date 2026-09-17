@@ -78,7 +78,7 @@ The second requirement for problem B asks for the number of `Female` students wh
 | **21** | S22 | Communication | 89 | 39 | 63.50 |
 | **25** | S24 | Instrumentation | 83 | 47 | 65.75 |
 
-## C. Multi-Model Subsetting
+## C. Category-Average Visualization
 > **Instructions:** Examine how the recorded `Average` differs across the three categorical features `Track`, `Gender`, and `Hometown`. For each feature, compute the mean of `Average` for every category using `Pandas` then display the three summary tables. Using these values, create one figure that contains three bar charts: mean Average by Track, by Gender, and by Hometown. Following the figure, write three concise statements identifying the category with the highest sample mean for each feature. However, describe the observed dataset only. Note that differences in group means does not imply the cause of a higher score.
 
 For problem C, to display the data of the aforementioned dataset in the form of charts is a property of the Python library `matplotlib`, a data-visualization tool for Python. To use this feature, it must be first initialized as,
